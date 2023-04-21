@@ -1,4 +1,4 @@
-function oncha() {
+function oncha() {   //create function
     let a = parseInt(document.getElementById("qty").value);
     let b = parseInt(document.getElementById("price").value);
     let c = a * b;
@@ -11,7 +11,7 @@ function oncha() {
     document.getElementById("total").value = m;
 }
 
-function oncha1() {
+function oncha1() { //create function
     let p = parseInt(document.getElementById("qty1").value);
     let q = parseInt(document.getElementById("price1").value);
     let r = p * q;
@@ -24,7 +24,7 @@ function oncha1() {
     document.getElementById("total").value = m;
 }
 
-function oncha2() {
+function oncha2() {  //create function
     let d = parseInt(document.getElementById("qty2").value);
     let e = parseInt(document.getElementById("price2").value);
     let f = d * e;
