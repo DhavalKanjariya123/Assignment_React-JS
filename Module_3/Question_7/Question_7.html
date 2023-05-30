@@ -1,0 +1,37 @@
+<!-- How to install React Js on Windows, Linux Operating System? How to
+install NPM and How to check version of NPM?
+
+
+install React Js:
+(1) Install Node.js installer for windows. Click on the link. Here install the LTS version. Once downloaded open NodeJS without disturbing other settings, click on the Next button until it’s completely installed.
+
+(2) Open command prompt  to check whether it is completely installed or not type the command –> 
+node -v
+
+
+
+install NPM: Command use "npm install" write on command prompt to install NPM.
+
+
+
+First way to find version:
+import React from "react";
+import ReactDOM from "react-dom/client";
+const version = React.version;
+function App() {
+  return (
+    <>
+      <h1>React App version is: { version}</h1>
+    </>
+  )
+}
+const root = ReactDOM.createRoot(document.getElementById("demo"));
+root.render(<App/>);
+
+
+Second way to find version:
+write code of npm list react in command propmpt.
+
+Third way to find version:
+to view in packet.json.
+ -->
