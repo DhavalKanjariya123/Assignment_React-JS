@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: rgb(153, 148, 202);
+}
+.increment-decrement{
+    text-align: center;
+    margin-top: 15%;
+}
+.btn{
+    width: 10%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+.heading{
+    color: white;
+}
+.heading-degit{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}

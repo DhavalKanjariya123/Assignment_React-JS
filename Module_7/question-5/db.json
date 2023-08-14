@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Mobile",
+      "price": "5000",
+      "category": "Electronic",
+      "id": 1
+    },
+    {
+      "name": "Men's Shurt",
+      "price": "600",
+      "category": "Cloth",
+      "id": 3
+    },
+    {
+      "name": "Chair",
+      "price": "600",
+      "category": "Furniture",
+      "id": 4
+    }
+  ]
+}

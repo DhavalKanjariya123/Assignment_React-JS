@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* background-color: #000000 !important; */
+}
+
+
+/* admin log in start here */
+#login {
+    
+    height: 100vh;
+    background: url("../imgs/Admin_img.jpg") fixed no-repeat;
+    background-size: cover !important;
+}
+
+.overlay-adminlogin {
+    height: 100%;
+    width: 100vw !important;
+    background: rgba(33, 37, 41, 0.7) !important;
+
+}
+
+.form-width {
+    width: 40% !important;
+    margin-top: -150px !important;
+}
+
+.form-input {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+.admin-img {
+    width: 50px;
+    height: 50px !important;
+}
+
+/* admin log in end here */
+
+/* header start here */
+
+.content{
+    margin-left: 275px !important;
+}
+.admin-header{
+    width: 80% !important;
+    float: right !important;
+    background-color: #191C24;
+    position: fixed;
+   
+    
+}
+.admin-header-search [placeholder] {
+    background-color: #000000 ;
+    color: #6C7293 !important;
+}
+.admin-header-search ::placeholder {
+    color: #fff !important;
+    
+}
+.admin-header-search [placeholder]:focus {
+    background-color: red !important ;
+    color: #fff !important;
+    border-color:  red !important; 
+    
+}
+.admin-header-search .admin-toggle-btn{
+    background-color: #000000;
+    border: #000000;
+    color: red !important;
+}
+
+/* header end here */
+/* admin navbar start here */
+.admin-navbar {
+    width: 275px;
+    height: 100vh !important;
+    background-color: #191C24;
+    float: left !important;
+    position: fixed;
+}
+.admin-navbar-text{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(45deg, #68fff6, #ffea4a, #ff0dd7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.admin-nav-tab li  a{
+    width: 80% !important;
+    padding-left: 12% !important;
+    border-left: 4px solid transparent !important;
+    color: #6C7293 !important; 
+}
+.admin-nav-tab li .active1{
+    width: 80% !important;
+    background-color: #000000 !important;
+    color: red !important;
+    padding-left: 12% !important;
+    border-left: 4px solid red !important;
+}
+/* .active1{
+    width: 80% !important;
+    background-color: #000000 !important;
+    color: red !important;
+    padding-left: 12% !important;
+    border-left: 4px solid red !important;
+} */
+
+.admin-nav-tab li a:hover{
+    width: 80% !important;
+    background-color: #000000 !important;
+    color: red !important;
+    padding-left: 12% !important;
+    border-left: 4px solid red !important;  
+}
+
+.bi-speedometer, .bi-menu-app, .bi-person, .bi-phone {
+    background-color: #000000 !important;
+    color: #6C7293 !important;  
+}
+
+.menu-list li a:hover{
+    background-color: #fff !important;
+    color: red !important;
+    border-left: 4px solid #fff !important;  
+}
+
+
+
+/* admin dashboard start here */
+.admin-dashboard-content{
+    /* background-color: #000000 !important; */
+    width: 100% !important;
+    float: left !important;
+    padding: 20px !important;
+    margin-top: 7% !important;
+}
+.dashboard-detail{
+    background-color: #191C24;
+}
+.bi-graph-up, .bi-bar-chart-line-fill{
+    color: red !important;
+    font-size: 35px;
+}
+.text-color{
+    color: #6C7293 !important; 
+}
+/* admin dashboard end here */
+
+/* admin contact start here */
+.admin-contact-content, .admin-addmenu-content{
+    width: 100% !important;
+    float: left !important;
+    padding: 20px !important;
+    margin-top: 8% !important;
+  
+    
+}
+.contact-content [placeholder]{
+    color: #fff !important;
+    font-weight: 600 !important;
+    
+}
+.contact-content [placeholder]:focus  {
+    background-color: rgba(216, 22, 22, 0.85) !important;
+    outline: none !important;   
+}
+
+
+
+
+
+#mytable{
+    background-color: #ff0dd7 !important;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+    .form-width {
+        width: 91% !important;
+        margin-top: -150px !important;
+    }
+    .content{
+        margin-left: 0px !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .form-width {
+        width: 70% !important;
+        margin-top: -150px !important;
+    }
+    .content{
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .form-width {
+        width: 50% !important;
+        margin-top: -150px !important;
+    }
+    .content{
+        margin-left: 0px !important;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .form-width {
+        width: 40% !important;
+        margin-top: -150px !important;
+    }
+
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.logo{
+  width: 100%;
+  height: auto;
+  margin-top: -80px !important;
+}
+
+.hr1 {
+  margin-top: -45px !important;
+}
+
+.navbar1 {
+  margin-top: -25px !important;
+  background-color: rgb(222, 224, 224);
+}
+.caption h1 {
+  color:black;
+  text-shadow: 2px 2px #FF0000;
+}
+.caption p {
+  text-shadow: 2px 2px black
+}
+.slider-img img {
+  width: 80%;
+  height: 35vh;
+}

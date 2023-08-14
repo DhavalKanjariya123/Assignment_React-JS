@@ -1,0 +1,10 @@
+<!--What is Pure Component? When to use Pure Component over Component
+   
+   In the context of React, a "Pure Component" refers to a specific type of component that inherits from React's PureComponent class, rather than the regular Component class. The main difference between a regular component and a pure component lies in how they handle props and updates.
+
+In a regular React component (using the Component class), the shouldComponentUpdate lifecycle method is not implemented by default. This means that whenever the component receives new props or its state changes, it will re-render regardless of whether the incoming data actually affects the component's output. This can sometimes lead to unnecessary re-renders and potentially impact the performance of your application.
+
+On the other hand, a pure component, which extends the PureComponent class, automatically implements a shouldComponentUpdate method that performs a shallow comparison of the component's current props and state with the new props and state. If there are no differences, the pure component will not re-render. This can be advantageous in terms of performance optimization, as it reduces the number of unnecessary re-renders.
+
+   
+   -->
